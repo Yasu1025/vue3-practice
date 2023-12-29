@@ -1,7 +1,7 @@
 <template>
-  <Home />
+  <Menu />
 </template>
 
 <script lang="ts" setup>
-import Home from "@/components/Home.vue";
+import Menu from "@/components/Menu.vue";
 </script>

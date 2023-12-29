@@ -1,7 +1,7 @@
 <template>
-  <Home />
+  <Cart />
 </template>
 
 <script lang="ts" setup>
-import Home from "@/components/Home.vue";
+import Cart from "@/components/Cart.vue";
 </script>
