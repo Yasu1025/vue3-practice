@@ -28,6 +28,11 @@ const routes = [
         name: "Location",
         component: () => import("@/views/Location.vue"),
       },
+      {
+        path: "cart",
+        name: "Cart",
+        component: () => import("@/views/Cart.vue"),
+      },
     ],
   },
 ];

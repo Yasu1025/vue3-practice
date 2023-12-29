@@ -1,10 +1,48 @@
-/**
- * src/styles/settings.scss
- *
- * Configures SASS variables and Vuetify overwrites
- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
 
-// https://vuetifyjs.com/features/sass-variables/`
-// @use 'vuetify/settings' with (
-//   $color-pack: false
-// );
+:root {
+  --main-color: #fe8239;
+  --main-light: #fde9d7;
+  --black: #11100c;
+  --main-dark: #e94727;
+  --secondary: #c4b1a6;
+  --highlight-color: #2e266f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #2e266f83;
+  background-color: var(--main-light);
+  /* padding-top: 8rem; */
+}
+
+h1 {
+  font-size: clamp(2rem, 10vw, 4rem);
+  margin: 1rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  color: var(--highlight-color);
+  font-weight: 800;
+}
+
+h2 {
+  font-size: clamp(2rem, 10vw, 3rem);
+}

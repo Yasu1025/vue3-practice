@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+const links = ["Home", "Menu", "Location", "About"];
+</script>
+
 <template>
   <v-app-bar flat>
     <v-container class="mx-auto d-flex align-center justify-center">
@@ -14,20 +18,8 @@
       <v-spacer></v-spacer>
 
       <v-responsive max-width="160">
-        <v-text-field
-          density="compact"
-          flat
-          hide-details
-          label="Search"
-          rounded="lg"
-          single-line
-          variant="solo-filled"
-        ></v-text-field>
+        <v-btn to="/cart">Shopping cart (0)</v-btn>
       </v-responsive>
     </v-container>
   </v-app-bar>
 </template>
-
-<script lang="ts" setup>
-const links = ["Home", "Menu", "Location", "About"];
-</script>
